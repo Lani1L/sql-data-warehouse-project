@@ -1,10 +1,10 @@
 /*
-===============================================================
+===================================================================================================================
  DDL Script: Bronze Layer - Table Creation
- Script Purpose: Create user-defined tables for CRM and ERP datasets,
-          dropping existing tables if they already exist.
-Run this script to re-define the DDL structure of 'bronze' Tables
-===============================================================
+ Script Purpose: 
+    Create user-defined tables for CRM and ERP datasets, dropping existing tables if they already exist.
+    Run this script to re-define the DDL structure of 'bronze' Tables
+===================================================================================================================
 */
 
 -- ========================================
