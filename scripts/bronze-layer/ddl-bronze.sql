@@ -7,10 +7,6 @@
 ===================================================================================================================
 */
 
--- ========================================
--- Drop and create table: bronze.crm_cust_info
--- Description: Customer master information (CRM)
--- ========================================
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
 GO
@@ -25,10 +21,6 @@ CREATE TABLE bronze.crm_cust_info (
     cst_create_date DATE
 );
 
--- ========================================
--- Drop and create table: bronze.crm_prd_info
--- Description: Product master information (CRM)
--- ========================================
 IF OBJECT_ID('bronze.crm_prd_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_prd_info;
 GO
@@ -43,10 +35,6 @@ CREATE TABLE bronze.crm_prd_info (
     prd_end_dt DATETIME
 );
 
--- ========================================
--- Drop and create table: bronze.crm_sales_details
--- Description: CRM sales transaction records
--- ========================================
 IF OBJECT_ID('bronze.crm_sales_details', 'U') IS NOT NULL
     DROP TABLE bronze.crm_sales_details;
 GO
@@ -63,10 +51,6 @@ CREATE TABLE bronze.crm_sales_details (
     sls_price INT
 );
 
--- ========================================
--- Drop and create table: bronze.erp_cust_az12
--- Description: ERP customer demographic data
--- ========================================
 IF OBJECT_ID('bronze.erp_cust_az12', 'U') IS NOT NULL
     DROP TABLE bronze.erp_cust_az12;
 GO
@@ -77,10 +61,6 @@ CREATE TABLE bronze.erp_cust_az12 (
     gen NVARCHAR(50)
 );
 
--- ========================================
--- Drop and create table: bronze.erp_loc_a101
--- Description: ERP customer location information
--- ========================================
 IF OBJECT_ID('bronze.erp_loc_a101', 'U') IS NOT NULL
     DROP TABLE bronze.erp_loc_a101;
 GO
@@ -90,10 +70,6 @@ CREATE TABLE bronze.erp_loc_a101 (
     cntry NVARCHAR(50)
 );
 
--- ========================================
--- Drop and create table: bronze.erp_px_cat_g1v2
--- Description: ERP product category and subcategory
--- ========================================
 IF OBJECT_ID('bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
     DROP TABLE bronze.erp_px_cat_g1v2;
 GO
