@@ -1,5 +1,9 @@
 # Data Warehousing with SQL Server using Medallion Architecture
 
+<img width="1027" height="523" alt="image" src="https://github.com/user-attachments/assets/1675cf08-b1c4-493c-8f3d-1ac4b79ce002" />
+
+
+
 This project focuses on building a data warehouse in SQL Server based on the Medallion Architecture, which organizes data into three structured layers: Bronze, Silver, and Gold. This layered approach ensures data quality, scalability, and optimized performance for reporting and analytics.
 
 Bronze Layer (Raw Data Layer)
