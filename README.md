@@ -1,1 +1,2 @@
-# sql-data-warehouse-project
+# Data Warehouse using SQL server
+
